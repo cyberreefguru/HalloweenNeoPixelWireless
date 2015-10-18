@@ -25,44 +25,6 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>it.baeyens.arduinonature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-<<<<<<< HEAD:HalloweenClient/.project
-			<name>Libraries/Adafruit_NeoPixel</name>
-			<type>2</type>
-			<locationURI>ArduinoPrivateLibPath/Adafruit_NeoPixel</locationURI>
-=======
-			<name>Libraries/EEPROM</name>
-			<type>2</type>
-			<locationURI>ArduinoHardwareLibPath/EEPROM</locationURI>
-		</link>
-		<link>
-			<name>Libraries/FastLED</name>
-			<type>2</type>
-			<locationURI>ArduinoPrivateLibPath/FastLED</locationURI>
-		</link>
-		<link>
-			<name>Libraries/RF24</name>
-			<type>2</type>
-			<locationURI>ArduinoPrivateLibPath/RF24</locationURI>
-		</link>
-		<link>
-			<name>Libraries/SPI</name>
-			<type>2</type>
-			<locationURI>ArduinoHardwareLibPath/SPI</locationURI>
->>>>>>> cb80fe4f42fb6725a5e44f51314923893a02b31f:NeoWirelessLib/.project
-		</link>
-		<link>
-			<name>arduino/core</name>
-			<type>2</type>
-			<locationURI>ArduinoPlatformPath/arduino</locationURI>
-		</link>
-		<link>
-			<name>arduino/variant</name>
-			<type>2</type>
-			<locationURI>ArduinoPinPath/standard</locationURI>
-		</link>
-	</linkedResources>
 	<variableList>
 		<variable>
 			<name>ArduinoHardwareLibPath</name>

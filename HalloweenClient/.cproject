@@ -12,6 +12,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<<<<<<< HEAD:HalloweenClient/.cproject
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.1079811814" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
 					<folderInfo id="it.baeyens.arduino.core.toolChain.release.1079811814.372351391" name="/" resourcePath="">
 						<toolChain id="it.baeyens.arduino.core.toolChain.release.1250153278" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
@@ -25,9 +26,26 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/arduino/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/arduino/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/Libraries/Adafruit_NeoPixel}&quot;"/>
+=======
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.20735311" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.20735311.1411307696" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.1844110026" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.135814784" name="Arduino Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/NeoWirelessLib}/Release" id="it.baeyens.arduino.sketch.builder.569508053" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.473507344" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.759127929" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/RF24}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/RF24/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/FastLED}&quot;"/>
+>>>>>>> cb80fe4f42fb6725a5e44f51314923893a02b31f:NeoWirelessLib/.cproject
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.452259550" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
 							</tool>
+<<<<<<< HEAD:HalloweenClient/.cproject
 							<tool id="it.baeyens.arduino.tool.compiler.c.417448732" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
 								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.848164689" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixels/arduino/core}&quot;"/>
@@ -36,6 +54,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/arduino/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/arduino/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/HalloweenNeoPixelWireless/Libraries/Adafruit_NeoPixel}&quot;"/>
+=======
+							<tool id="it.baeyens.arduino.tool.compiler.c.1698519766" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.528181589" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/RF24}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/RF24/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/NeoWirelessLib/Libraries/FastLED}&quot;"/>
+>>>>>>> cb80fe4f42fb6725a5e44f51314923893a02b31f:NeoWirelessLib/.cproject
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.641595347" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
 							</tool>
